@@ -52,10 +52,11 @@
           scope: "/"
         })
           .then((res) => {
-            console.log(res);
-            console.log("Service Worker registered successfully.");
+            // Registration was successful
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
           })
-          .catch(error => console.log("Service Worker registration failed:", error));
+          .catch(error => // registration failed :(
+      console.log('ServiceWorker registration failed: ', err));
       }
     })();
   </script>
