@@ -1,7 +1,8 @@
 body {
   font-size: 120%;
   font-family: Arial;
-  background-color: #000000;
+  background-color: rgb(100 104 110);
+  margin-top:20px;
 
 }
 
@@ -36,16 +37,29 @@ tr:nth-child(even) {
 
 }
 
-.total {
-  font-size: 150%;
-  text-decoration: underline;
-}
+.total span {
+  color:rgb(184, 184, 184);
+    font-size: 42px;
 
+}
+.total {
+  padding:10px;
+  color:#eeeeee;
+  background-color: #900000;
+  font-size: 38px;
+  text-decoration: none;
+  
+}
 .form {
   margin-top: 25px;
   width: 100%;
 }
-
+.form .fa-plus{
+  color:rgb(4, 133, 0);
+}
+.form .fa-minus{
+  color:rgb(133, 0, 0);
+}
 .transactions {
   text-align: left;
   max-height: 300px;
